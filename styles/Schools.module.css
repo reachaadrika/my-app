@@ -1,0 +1,28 @@
+.container {
+    top: 20%;
+}
+.schoolsContainer {
+    display: flex;
+justify-content: center;    
+margin: auto;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+}
+.Cardscontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px; 
+}
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 40px; 
+}
+
+.schoolCard {
+    flex: 1; 
+}

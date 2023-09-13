@@ -1,0 +1,65 @@
+[
+    {
+      "id": "s1",
+      "name": "Shishukunj International",
+      "location": {
+        "latitude": 123.456,
+        "longitude": 789.012
+      },
+      "description": "Description of School 1",
+      "address" : "Jalaria, Bypass Road, Indore, Madhya Pradesh 452016",
+      "imageUrl": "https://www.shishukunj.in/jhalariyaLogo.png",
+      "rating": 5.0
+    },
+    {
+      "id": "s2",
+      "name": "Satysai Vidyavihar",
+      "location": {
+        "latitude": 256.34,
+        "longitude": 321.654
+      },
+      "description": "Description of School 2",
+      "address" : "Scheme No. 54, A.B. Road, Vijay Nagar, Indore, Madhya Pradesh 452010",
+      "imageUrl": "http://sathyasaiindore.com/assets/img/logo/logo1.png",
+      "rating": 4.5
+    },
+    {
+      "id": "s3",
+      "name": "DPS , Indore",
+      "location": {
+        "latitude": 321.654,
+        "longitude": 789.012
+      },
+      "description": "Description of School 3",
+      "address" : "Indore Bypass Rd, Nipania Road, near Water Lilly, Indore, Madhya Pradesh 452010",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "rating": 3.5
+    },
+    {
+      "id": "s4",
+      "name": "Emerald Heights",
+      "location": {
+        "latitude": 789.012,
+        "longitude": 521.654
+      },
+      "description": "Description of School 4",
+      "address" : "A.B. Road, Rau, opposite Akashwani, Indore, Madhya Pradesh 453331",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUrrKYNOFNcBOJQac8oSL9gttP5E3yf0cOBshzXMzhrA&s",
+      "rating": 3.0
+    },
+    {
+      "id": "s5",
+      "name": "Kendriya Vidyalaya",
+      "location": {
+        "latitude": 521.654,
+        "longitude": 789.012
+      },
+      "description": "Description of School 5",
+      "address" : "KV Rd, Gandhi Park Colony, Residency Area, Indore, Madhya Pradesh 452001",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD6BoiwKqIyP6WuKKifkrZuZ9qEWmwzQ6D6qmU-eT_&s",
+      "rating": 4.0
+    }
+
+
+  ]
+  

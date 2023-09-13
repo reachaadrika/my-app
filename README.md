@@ -2,33 +2,44 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, Install all the required project dependencies:
+```bash
+npm install
+
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+## Features 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- > For styling I have used MUI Components due to time crunch , and I have thought of styling all by myself , I have a little knowledge of designing and have a habit of translating designs from the designers.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+ - > This Next.js project has 3 main routes namely : 
+     1. Home page ("/")
+     2. Schools listing page ("/schools")
+     3. Individual school pages (e.g., "/schools/s1", "/schools/s2")
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- > Flow of the Application : 
+- On the home Page , click on Go To Schools link and this shall redirect you to the "School Listing Page "
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- School Listing Page : There are 5 schools , fetched from the JSON file and displayed in Cards , to view individual Schools click on 
+"Learn More" , this will redirect you to individual School pages .
 
-## Learn More
+- On the individual School Page , you can see the "Distance Calculator Feature " 
 
-To learn more about Next.js, take a look at the following resources:
+"Distance Calculator Feature " : Here you can add Longitude and Latitude in the input text box and when you click on the "Calculate Distance " you can see the distance displayed . This will be vanished once both text boxes are empty . 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Distance is calculated from the latitude & longitude postions  in the json files mentioned. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Review Feature : User can set review from the feedback stars , and can write their feedback in the textfield provided . Furthermore 
+on clicking "Submit Review" , the Review is stored in "Local Storage " , and you can see a Modal , that review is submitted . 
 
-## Deploy on Vercel
+To test this : Ctrl+shift+i and scroll in the console to see all the reviews . 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+NOTE : Most compatible in browsers for now . 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
